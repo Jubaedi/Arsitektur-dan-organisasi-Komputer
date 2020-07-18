@@ -1,0 +1,67 @@
+=================================================================
+
+Nama	: Ahmad Jubaedi
+NIM  	: 311710543
+Kelas	: TI.17.D4
+==================================================================
+
+
+1. A .ALU (Arithmatic Logical Unit)
+salah satu bagian/komponen dalam di dalam sistem komputer yang  berfungsi 
+melakukan operasi/perhitungan aritmatika dan logika (penjumlahan, pengurangan dan beberapa logika lain).
+ B. CU (Control Unit)
+merupakan salah satu bagian dari CPU yang bertugas untuk memberikan arahan/kendali/ kontrol 
+terhadap operasi yang dilakukan oleh ALU (Arithmetic Logical Unit) di dalam CPU.
+Fungsi Control Unit :
+Mengatur & mengendalikan alat-alat input dan output.
+Mengambil instruksi-instruksi dari memori utama.
+Mengambil data dari memori utama (jika diperlukan).
+Mengirim instruksi ke ALU bila ada perhitungan aritmatika atau perbandingan logika serta mengawasi 
+kerja dari ALU.
+Menyimpan hasil proses ke memori utama.
+ C. Register
+Merupakan memori yang terdapat di dalam CPU, register adalah Alat penyimpanan kecil dgn kecepatan 
+akses yang tinggi, yangg digunakan untuk menyimpan data dan instruksi yang sedang diproses, sementara
+data dan instruksi lainnya menunggu giliran untuk diproses, masih disimpan di dalam memori utama.
+Jenis Jenis Register :
+Instruction Register (IR) digunakan untuk menyimpan instruksi yang sedang diproses.
+Program Counter (PC) digunakan untuk menyimpan alamat lokasi dari memori utama yang berisi instruksi yang sedang diproses.  Selama pemrosesan instruksi, isi PC diubah menjadi alamat dari memori utama yang berisi instruksi berikutnya.
+General purpose register, punya kegunaan umum yang berhubungan dengan data yang sedang diproses.  Contoh, yg digunakan untuk menampung data disebut operand register, untuk menampung hasil disebut accumulator.
+Memory data register (MDR) digunakan untuk menampung data atau instruksi hasil pengiriman dari memori utama ke CPU atau menampung data yg akan direkam ke memori utama, hasil pengolahan oleh CPU.
+Memory address register (MAR) digunakan untuk menampung alamat data atau instruksi pada memori utama yg akan diambil atau yg akan diletakkan.
+D. CPU Interconection
+Merupakan alur transefer data/perintah yang diberikan yang menghubungkan ALU, CU dan REGISTER.
+
+2.  -Clock / pewaktu 
+-R?g??t?r instruksi 
+-Flag
+-sinyal control  untuk mengontrol bus
+
+macam -macam 
+Single-Cycle CU 
+Multi-Cycle CU 
+
+3.Data procecessing: Arithmetic dan Logic Instructions
+Data processing adalah jenis pemrosesan yang dapat 
+mengubah data menjadi informasi atau pengetahuan. Pemrosesan data ini sering menggunakan komputer sehingga 
+bisa berjalan secara otomatis.Setelah diolah, data ini biasanya mempunyai nilai yang informatif jika dinyatakan 
+dan dikemas secara terorganisir dan rapi, maka istilah pemrosesan data sering dikatakan sebagai sistem informasi. Kedua istilah ini mempunyai arti yang hampir 
+sama, pemrosesan data mengolah dan memanipulasi data mentah menjadi informasi (hasil pengolahan), 
+sedangkan sistem informasi memakai data sebagai bahan masukan dan menghasilkan informasi sebagai produk keluaran.
+
+
+
+Data storage: Memory instructions
+Sering disebut sebagai memori komputer, merujuk kepada komponen komputer, 
+perangkat komputer, dan media perekaman yang mempertahankan data digital yang digunakan untuk beberapa interval 
+waktu. Penyimpanan data komputer menyediakan salah satu tiga fungsi inti dari komputer modern, yakni 
+mempertahankan informasi. Ia merupakan salah satu komponen fundamental yang terdapat di dalam semua komputer modern, dan memiliki keterkaitan dengan mikroprosesor, dan menjadi model komputer yang digunakan semenjak 1940-an.
+
+
+
+4. - Dapat menirukan sebagian fungsi processor.
+   - Dapat mengambil alih fungsi processor yang berhubungan dengan transfer data.
+   - CPU dapat melakukan menejemen operasi baca tulis (transfer data) dengan baik dan juga dapat menyelesaikan instruksi yang lain.
+   - Mendapat informasi tentang jumlah data bit yang ditransfer, alamat dari device dan memory yang diperlukan dan arah dari aliran data.
+5. - Pipeline Unit Arithmetic = Berguna untuk operasi vektor
+   - Pipeline Unit Instruction = Untuk yang mempunyai set instruksi yang sederhana
